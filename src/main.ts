@@ -15,7 +15,7 @@ import { CdkMenuModule } from '@angular/cdk/menu';
 
 <ng-template #menu let-data>
   <div class="example-menu" cdkMenu>
-    <button cdkMenuItemCheckbox>Counter = {{ data }}</button>
+    <button>Counter = {{ data }}</button>
   </div>
 </ng-template>
   `,
